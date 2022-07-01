@@ -1,0 +1,57 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;400&family=Comfortaa&family=Kaushan+Script&family=Montserrat:wght@100;300;500&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo@1&family=Barlow:wght@100;400&family=Comfortaa&family=Kaushan+Script&family=Montserrat:wght@100;300;500&family=Oswald&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&family=Barlow:wght@100;400&family=Comfortaa&family=Kaushan+Script&family=Montserrat:wght@100;300;500&family=Oswald:wght@200;400&display=swap');
+
+.container{
+	margin: 0 auto;
+	width: 95%;
+	max-width: 850px;
+}
+
+h1{
+	color: #cc4425;
+	/* font-family: 'Oswald', sans-serif; */
+	font-family: 'Oswald', sans-serif;
+	font-size: 3rem;
+	line-height: 1.15;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: .5em;
+	text-transform: uppercase;
+}
+
+h1 span{
+	color: #ddd;
+	font-size: .5em;
+	display: block;
+}
+
+p{
+	color: #3e4147;
+	/* font-family: 'Arvo', serif; */
+	font-family: 'Arvo', serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.65;
+	margin-bottom: 2em;
+}
+
+/* desktop first approach @media, specifiying: (max-width: <>px) {*/
+/* mobile first first approach, specifying min: (min-width: <>px) {*/
+
+@media (min-width: 600px){
+	p{
+		font-size: 1.25rem;
+		background-color: aliceblue;
+	}
+}
+
+@media (min-width: 800px){
+	p{
+		font-size: 1.5rem;
+		line-height: 1.5;
+		background-color: lightgreen;
+	}
+}
+
