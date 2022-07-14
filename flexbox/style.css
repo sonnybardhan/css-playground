@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	/* font-family: Arial, Helvetica, sans-serif; */
+	font-family: 'Poppins', sans-serif;
+	/* display: flex; */
+	height: 100vh;
+	width: 100vw;
+	background-color: rgb(137, 179, 246);
+}
+nav{
+	display: flex;
+	justify-content: center;
+	background-color: lightblue;
+}
+
+.nav-container {
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	height: 75px;
+	font-weight: bold;
+	color: white;
+	/* font-size: 1.5em; */
+}
+
+.nav-container .logo-container{
+	font-size: 1.75em;
+}
+
+.nav-container ul {
+	display: flex;
+	width: 35%;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+}
+
+.nav-container ul li {
+	list-style-type: none;
+	font-size: 1.2em;
+	margin: 5px;
+}
+
+.header{
+	background-color: rgb(65, 82, 135);
+	color: white;
+	display: flex;
+	justify-content: center;
+	/* padding: 10px; */
+}
+
+.header-container {
+	display: flex;
+	width: 70%;
+}
+
+.header-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2em;
+}
+
+.header-text h1{
+	font-weight: bold;
+	font-size: 3em;
+}
+
+.footer{
+	/* background-color: pink; */
+	/* height: 100%; */
+	padding-top: 1em;
+	display: flex;
+	justify-content: center;
+}
+
+.footer .card-container{
+	display: flex;
+	width: 70%;
+	justify-content: center;
+	/* background-color: aqua; */
+}
+
+.card{
+	background-color: rgb(55, 103, 205);
+	display: flex;
+	flex-direction: column;
+	/* height: 300px; */
+
+	color: white;
+	border-radius: 1em;
+	padding: 1em;
+	margin: 1em;
+	box-shadow: .25em .25em 1em rgba(0, 0, 0, 0.224);
+}
+
+.card-heading-container{
+	display: flex;
+	justify-content: flex-start;
+	padding:.5em;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.card-heading-logo{
+	/* padding-left: 1em; */
+}
+
+.card-heading{
+	padding-left: 1em;
+}
+
+.card-text{
+	padding: 1em;
+}
+
+@media (max-width: 1368px) {
+	.header-container{
+		flex-direction: column;
+		align-items: center;
+	}	
+
+	.card-container {
+		flex-direction: column;
+	}
+}
