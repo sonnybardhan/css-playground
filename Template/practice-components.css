@@ -1,0 +1,32 @@
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.pie-chart{
+	--dimension: 200px;
+	/* --position: 20%; */
+	--slider-position: 0%;
+	--base-color: lightblue;
+	--section-color: rgb(48, 103, 122);
+	height: var(--dimension);
+	width: var(--dimension);
+	border-radius: 50%;
+	background-color: lightblue;
+	background-image: conic-gradient(var(--section-color) var(--slider-position), var(--base-color) 0%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2em;
+}
+
+.overlay{
+	--dimension: 70%;
+	height: var(--dimension);
+	width: var(--dimension);
+	background-color: white;
+	border-radius: 50%;
+}
