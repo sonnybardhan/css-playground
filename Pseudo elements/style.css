@@ -1,0 +1,45 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content {
+	font-size: 5em;
+	text-transform: uppercase;
+	font-family: 'Courier New', Courier, monospace;
+	position: relative;
+	padding: 1em;
+	background-color: lightgray;
+	border-top-right-radius: 1em;
+}
+
+
+.content::before{
+	content: '';
+	display: block;
+	width: 10px;
+	height: 10px;
+	/* top: 0; */
+	left: 0;
+	position: absolute;
+	background-color: red;
+}
+
+.content::after{
+	content: 'hello';
+	display: block;
+	/* display: inline-block; */
+	/* width: 10px;
+	height: 10px; */
+	/* top: 0; */
+	/* right: 0; */
+	/* position: absolute; */
+	background-color: red;
+}
+
+img {
+	/* border-radius: 5em; */
+}

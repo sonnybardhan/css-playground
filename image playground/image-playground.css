@@ -1,0 +1,24 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+.container {
+	background-image: url("./1.png");
+	/* background-image: url("./1.png"); */
+	background-color: #ccc;
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* background-clip: border-box;
+	background-origin: border-box;
+	background-repeat: no-repeat;
+	background-size: 50% auto; */
+}
+
